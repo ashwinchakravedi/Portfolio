@@ -78,3 +78,36 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+.portfolio-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#portfolio-title {
+  font-size: 2.5rem;
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.skill-box {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.thumbnail {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+#skill-description {
+  font-size: 1.5rem;
+  opacity: 0;
+  margin-top: 20px;
+  transition: opacity 1s ease 0.5s; /* delayed for better effect */
+}
+
